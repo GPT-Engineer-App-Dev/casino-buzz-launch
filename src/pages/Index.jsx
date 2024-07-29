@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { Dice, DollarSign, Users, Clock } from "lucide-react";
+import { Gamepad, DollarSign, Users, Clock } from "lucide-react";
 
 const Index = () => {
   const [games] = useState([
@@ -55,7 +55,7 @@ const Index = () => {
           <h2 className="text-3xl font-semibold mb-6 text-center">Why Choose Us</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: <Dice className="h-8 w-8 mb-2" />, title: "Wide Game Selection" },
+              { icon: <Gamepad className="h-8 w-8 mb-2" />, title: "Wide Game Selection" },
               { icon: <DollarSign className="h-8 w-8 mb-2" />, title: "Big Jackpots" },
               { icon: <Users className="h-8 w-8 mb-2" />, title: "VIP Program" },
               { icon: <Clock className="h-8 w-8 mb-2" />, title: "24/7 Support" },
